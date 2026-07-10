@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our complete catalog of 30 advanced gadgets. Filter by Audio, Smartwatches, Smartphones, Laptops, Gaming, and Drones.">
+    <title>ElectroPulse | Advanced Product Matrix Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="backToTop" aria-label="Scroll back to top">↑</button>
+
+    <header>
+        <div class="logo">
+        <img src="https://img.magnific.com/free-psd/3d-rendered-energy-symbol-purple-circle_84443-56166.jpg?semt=ais_hybrid&w=740&q=80" alt="Lightning Bolt Icon" class="logo-icon">ElectroPulse
+    </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">☰</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-showcase">
+            <div class="products-header">
+                <span class="section-badge">Hardware Ecosystems</span>
+                <h2>Elite Engineering. Next-Gen Performance.</h2>
+                <p>Discover smart devices, top brands, and the newest tech trends today.</p>
+            </div>
+
+            <div class="filter-controls-container glass-panel">
+                <div class="search-box-wrapper">
+                    <input type="text" id="catalogSearch" placeholder="Search product matrix by keywords (e.g., Buds, OLED, Core)...">
+                </div>
+                <div class="category-buttons-group">
+                    <button class="filter-btn active" data-category="all">All Modules</button>
+                    <button class="filter-btn" data-category="audio">Audio</button>
+                    <button class="filter-btn" data-category="watch">Smartwatches</button>
+                    <button class="filter-btn" data-category="phone">Smartphones</button>
+                    <button class="filter-btn" data-category="laptop">Laptops</button>
+                    <button class="filter-btn" data-category="gaming">Gaming</button>
+                    <button class="filter-btn" data-category="drone">Cameras & Drones</button>
+                </div>
+            </div>
+
+            <div class="grid" id="productGrid">
+                
+                <div class="card premium-card" data-cat="audio">
+                    <div class="card-tag-wrapper">
+                        <span class="tag tag-audio">Audio</span>
+                        <span class="stock-status sale-badge">SAVE 15%</span>
+                    </div>
+                    <div class="product-img-wrapper"><img src="https://i5.walmartimages.com/seo/VEATOOL-Bluetooth-Headphones-True-Wireless-Earbuds-65H-Playback-Power-Display-Earphones-Charging-Case-IPX7-Waterproof-in-Ear-Mic-TV-Smart-Phone-Compu_4fcdfe6c-8b6a-4cde-9d14-b2d02f026c7e.72bb21d7b7199d42acb8615ffbaa0470.jpeg?odnHeight=424&odnWidth=424&odnBg=FFFFFF" alt="Pulse Buds Pro" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Pulse Buds Pro</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Hybrid ANC setup with smart atmospheric ambient transparency bypass filters.</p>
+                        <div class="specs-grid"><span>40h Cells</span><span>IPX7</span></div>
+                        <div class="card-footer"><div class="price">₱1,449.99</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="audio">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Audio</span><span class="stock-status">Hot Item</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=400" alt="SonicOverdrive ANC" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>SonicOverdrive ANC</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Studio-grade over-ear monitor setup utilizing physical custom 50mm dynamic sound drivers.</p>
+                        <div class="specs-grid"><span>Hi-Res</span><span>Type-C</span></div>
+                        <div class="card-footer"><div class="price">₱4,199.99</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="audio">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Audio</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=400" alt="AeroStream Wireless" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>AeroStream Wireless</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Ultralight waterproof sweat-resistant open-ear drivers calibrated for outdoor athletes.</p>
+                        <div class="specs-grid"><span>Bone-Cond</span><span>⏱12h</span></div>
+                        <div class="card-footer"><div class="price">₱2,899.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="audio">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Audio</span><span class="stock-status sale-badge">LOW PRICE</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1608156639585-b3a032ef9689?q=80&w=400" alt="SoundPulse Home Bar" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>SoundPulse Home Bar</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Dolby Atmos ready spatial room-filling surround sound configurations with independent sub-woofers.</p>
+                        <div class="specs-grid"><span>Optical</span><span>Bluetooth 5.3</span></div>
+                        <div class="card-footer"><div class="price">₱8,450.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="audio">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Audio</span><span class="stock-status">Premium Tier</span></div>
+                    <div class="product-img-wrapper"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKXmF00D-Yqhc20fSZl__GH5YUePHF-cZ3oyNuIVWUNw&s=10" alt="StudioPulse Reference" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>StudioPulse Reference</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Audiophile wired studio headphones with open-back acoustics design maps.</p>
+                        <div class="specs-grid"><span>300 ohms</span><span>Flat Response</span></div>
+                        <div class="card-footer"><div class="price">₱12,999.99</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="watch">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Wearables</span><span class="stock-status">Trending</span></div>
+                    <div class="product-img-wrapper"><img src="https://m.media-amazon.com/images/I/610LLQC8DhL._AC_SL1500_.jpg" alt="AeroWatch Series 5" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>AeroWatch Series 5</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Advanced fitness, heart monitor, and blood oxygen analytics panel dashboard.</p>
+                        <div class="specs-grid"><span>Biometrics</span><span>7 Days</span></div>
+                        <div class="card-footer"><div class="price">₱2,249.99</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="watch">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Wearables</span><span class="stock-status sale-badge">NEW DROP</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=400" alt="Chronos Titanium Edge" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Chronos Titanium Edge</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Rugged aerospace titanium frame housing dual GPS navigation route tracking technology.</p>
+                        <div class="specs-grid"><span>Military STD</span><span>Dual-Band</span></div>
+                        <div class="card-footer"><div class="price">₱6,899.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="watch">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Wearables</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://cdn.thewirecutter.com/wp-content/media/2023/06/fitnesstrackers-2048px-09819-3x2-1.jpg?auto=webp&quality=75&crop=1:1,smart&width=1024" alt="Pulse Fit Lite" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Pulse Fit Lite</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Slim ergonomic fitness metrics tracking band with hyper-vibrant color AMOLED panel display.</p>
+                        <div class="specs-grid"><span>20+ Sports</span><span>Slim Design</span></div>
+                        <div class="card-footer"><div class="price">₱1,199.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="watch">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Wearables</span><span class="stock-status">Limited Release</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=400" alt="Veloce Luxury Smartwatch" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Veloce Luxury Smartwatch</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Mechanical luxury aesthetics design merged seamlessly with integrated core digital sensors.</p>
+                        <div class="specs-grid"><span>Sapphire Glass</span><span>Premium</span></div>
+                        <div class="card-footer"><div class="price">₱15,500.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="watch">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Wearables</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=400" alt="AeroWatch Kids Node" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>AeroWatch Kids Node</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Integrated parental safety monitoring tracking system watch with dedicated SOS buttons.</p>
+                        <div class="specs-grid"><span>Real-Time GPS</span><span>Voice Calls</span></div>
+                        <div class="card-footer"><div class="price">₱1,899.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="phone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Smartphones</span><span class="stock-status sale-badge">HOT DEAL</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=400" alt="Nexus Pulse X1" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Nexus Pulse X1</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Flagship processing chip array featuring neural engines and 120Hz micro-OLED panel screens.</p>
+                        <div class="specs-grid"><span>6.7" OLED</span><span>512GB</span></div>
+                        <div class="card-footer"><div class="price">₱24,999.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="phone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Smartphones</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=400" alt="Pulse Horizon Pro" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Pulse Horizon Pro</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Pro-grade triple camera sensor rig with true lossless telephoto hardware mapping.</p>
+                        <div class="specs-grid"><span>108MP Optic</span><span>5000mAh</span></div>
+                        <div class="card-footer"><div class="price">₱29,499.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="phone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Smartphones</span><span class="stock-status sale-badge">SAVE 10%</span></div>
+                    <div class="product-img-wrapper"><img src="https://media.wired.com/photos/67edf7522bbb28d0f4739de9/master/w_1600%2Cc_limit/Samsung-Galaxy-Z-Flip6%2C-a-foldable-phone-showing-the-exterior-screen-and-cameras-(no-border).jpg" alt="Apex Fold Quantum" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Apex Fold Quantum</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Ultra-thin dynamic flexible dual-screen fold interface with reinforced structural aluminum hinge elements.</p>
+                        <div class="specs-grid"><span>Folding Screen</span><span>16GB RAM</span></div>
+                        <div class="card-footer"><div class="price">₱45,999.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="phone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Smartphones</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?q=80&w=400" alt="Pulse Kinetic Play" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Pulse Kinetic Play</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Optimized energy efficient mid-range smartphone configuration for heavy multitasking matrices.</p>
+                        <div class="specs-grid"><span>65W Charging</span><span>Ready</span></div>
+                        <div class="card-footer"><div class="price">₱13,250.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="phone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Smartphones</span><span class="stock-status">Budget King</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1525598912003-663126343e1f?q=80&w=400" alt="EcoPulse Node Mini" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>EcoPulse Node Mini</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Sustainably recycled polymer shell housing modern swift 5G network transceivers.</p>
+                        <div class="specs-grid"><span>5G Antennas</span><span>Recycled Shell</span></div>
+                        <div class="card-footer"><div class="price">₱7,499.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="laptop">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Laptops</span><span class="stock-status">Workstation</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=400" alt="PulseBook Core 14" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>PulseBook Core 14</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Sleek processing laptop running hardware platforms optimized for long battery lifecycles.</p>
+                        <div class="specs-grid"><span>Core i7 Node</span><span>⏱18h Battery</span></div>
+                        <div class="card-footer"><div class="price">₱38,999.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="laptop">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Laptops</span><span class="stock-status sale-badge">TOP RATED</span></div>
+                    <div class="product-img-wrapper"><img src="https://dlcdnwebimgs.asus.com/files/media/1e5b0eb1-0c5e-400d-980f-4d7f39af1782/images/pd.png" alt="Apex Creator Carbon" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Apex Creator Carbon</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>4K professional color-accurate screen panel with ultra lightweight full carbon composite weave chassis.</p>
+                        <div class="specs-grid"><span>4K IPS Screen</span><span>1TB NVMe</span></div>
+                        <div class="card-footer"><div class="price">₱54,500.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="laptop">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Laptops</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=400" alt="EcoPulse Stream Air" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>EcoPulse Stream Air</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Fanless, zero-noise architectural deployment build perfect for academics, text documents, and web apps.</p>
+                        <div class="specs-grid"><span>Fanless Build</span><span>🪶 0.9kg Mass</span></div>
+                        <div class="card-footer"><div class="price">₱18,200.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="laptop">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Laptops</span><span class="stock-status">Power Unit</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=400" alt="Pulse Titan Engine" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Pulse Titan Engine</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Heavy data calculations desktop replacement running high wattage multithread hardware.</p>
+                        <div class="specs-grid"><span>64GB RAM Stack</span><span>Encrypted Core</span></div>
+                        <div class="card-footer"><div class="price">₱72,400.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="laptop">
+                    <div class="card-tag-wrapper"><span class="tag tag-wearables">Laptops</span><span class="stock-status sale-badge">PRICE DROP</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=400" alt="FlexiPulse Convertible" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>FlexiPulse Convertible</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Flexible 360 hinge structure allowing direct transformation into drawing matrices with dynamic stylus links.</p>
+                        <div class="specs-grid"><span>2-in-1 Fold</span><span>Stylus Map</span></div>
+                        <div class="card-footer"><div class="price">₱26,900.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="gaming">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Gaming</span><span class="stock-status">High Demand</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=400" alt="QuantumPulse Rig X" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>QuantumPulse Rig X</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Console unit pushing lightning computational physics frame pipelines with liquid-metal thermal interfaces.</p>
+                        <div class="specs-grid"><span>raytracing</span><span>120 FPS Link</span></div>
+                        <div class="card-footer"><div class="price">₱23,499.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="gaming">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Gaming</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=400" alt="PulseFrame OLED 34" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>PulseFrame OLED 34</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Ultrawide curved deep canvas monitor with immediate sub-millisecond response processing speed.</p>
+                        <div class="specs-grid"><span>240Hz Curve</span><span>⏱0.03ms Lag</span></div>
+                        <div class="card-footer"><div class="price">₱19,999.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="gaming">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Gaming</span><span class="stock-status sale-badge">SAVE 20%</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=400" alt="Starlight Mechanoid Pro" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Starlight Mechanoid Pro</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Fully mechanical optical-switch linear processing keyboard setup accented with custom RGB color matrices.</p>
+                        <div class="specs-grid"><span>Linear Switches</span><span>RGB Matrix</span></div>
+                        <div class="card-footer"><div class="price">₱3,450.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="gaming">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Gaming</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://assetsio.gnwcdn.com/Steam-Controller-standing.JPG?width=690&quality=85&format=jpg&dpr=3&auto=webp" alt="Kinetic Axis Controller" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Kinetic Axis Controller</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Pro tournament grade controller map containing physical rear re-mappable macro paddles and click triggers.</p>
+                        <div class="specs-grid"><span>Hall-Effect sticks</span><span>Remappable</span></div>
+                        <div class="card-footer"><div class="price">₱2,899.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="gaming">
+                    <div class="card-tag-wrapper"><span class="tag tag-audio">Gaming</span><span class="stock-status">Premium Build</span></div>
+                    <div class="product-img-wrapper"><img src="https://gameone.ph/media/catalog/product/mpiowebpcache/d378a0f20f83637cdb1392af8dc032a2/r/a/razer-kraken-kitty-v2-bt-wireless-headset-cover_1.webp" alt="AeroGear Nexus Headset" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>AeroGear Nexus Headset</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Lag-free wireless receiver with integrated precision directional physical acoustic tracking logic.</p>
+                        <div class="specs-grid"><span>2.4GHz Net</span><span>Broadcast Mic</span></div>
+                        <div class="card-footer"><div class="price">₱5,120.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="drone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Gear</span><span class="stock-status">Elite Selection</span></div>
+                    <div class="product-img-wrapper"><img src="https://img.freepik.com/premium-photo/highquality-aerial-shot-drone-with-digital-camera-flying_1021945-1959.jpg" alt="Apex Drone X4" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Apex Drone X4</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>4K cinematic aerial capture drone array with autonomous object avoidance mapping radar.</p>
+                        <div class="specs-grid"><span>4K HDR Cine</span><span>10km Core</span></div>
+                        <div class="card-footer"><div class="price">₱5,599.99</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="drone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Gear</span><span class="stock-status sale-badge">LIMITED</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=400" alt="Lumix Pulse Frame Pro" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Lumix Pulse Frame Pro</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Mirrorless full-frame photo studio setup tracking real-time smart autofocus tracking metrics.</p>
+                        <div class="specs-grid"><span>61MP Sensor</span><span>8K Record</span></div>
+                        <div class="card-footer"><div class="price">₱68,900.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="drone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Gear</span><span class="stock-status">In Stock</span></div>
+                    <div class="product-img-wrapper"><img src="https://sc04.alicdn.com/kf/H2dc4803d2c9e4ce682921726eccd5490z.jpg" alt="AeroEye Mini Flight" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>AeroEye Mini Flight</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>Ultra-light sub 240g drone module bypass tracking laws for swift structural aerial surveying.</p>
+                        <div class="specs-grid"><span>Sub-249g Cell</span><span>⏱30m Flight</span></div>
+                        <div class="card-footer"><div class="price">₱3,150.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="drone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Gear</span><span class="stock-status sale-badge">SAVE ₱2,000</span></div>
+                    <div class="product-img-wrapper"><img src="https://images.unsplash.com/photo-1552168324-d612d77725e3?q=80&w=400" alt="CineWave Stabilizer Hand" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>CineWave Stabilizer Hand</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐★</div>
+                        <p>3-axis physical mechanical gimbal mount tracking active steady cinematic video motion algorithms.</p>
+                        <div class="specs-grid"><span>3-Axis Servo</span><span>15h Sync</span></div>
+                        <div class="card-footer"><div class="price">₱4,850.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+                <div class="card premium-card" data-cat="drone">
+                    <div class="card-tag-wrapper"><span class="tag tag-gear">Gear</span><span class="stock-status">New Module</span></div>
+                    <div class="product-img-wrapper"><img src="https://smstationery.com.ph/cdn/shop/files/10099528a_GADGETS_20Mini_20Digital_20Camera_20FRONT_Black.jpg?v=1765436165&width=1920" alt="Apex Action Vault 4K" class="product-img"></div>
+                    <div class="card-body">
+                        <h3>Apex Action Vault 4K</h3>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <p>Shockproof deep waterproof immersion rugged camera module built for intensive extreme high-velocity sports tracking.</p>
+                        <div class="specs-grid"><span>20m Waterproof</span><span>4K/120p Frame</span></div>
+                        <div class="card-footer"><div class="price">₱9,200.00</div><button class="btn-icon">🛒</button></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand-col">
+                <div class="logo">ElectroPulse</div>
+                <p>Engineering future configurations of custom portable consumer computing hardware arrays.</p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">All Products</a></li>
+                    <li><a href="contact.html">Support Core</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal Matrix</h4>
+                <ul>
+                    <li><a href="#">Security Nodes</a></li>
+                    <li><a href="#">Privacy Framework</a></li>
+                    <li><a href="#">Hardware Licenses</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ElectroPulse Tech Store. Deployed and monitored locally. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
